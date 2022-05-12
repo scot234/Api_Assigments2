@@ -73,7 +73,7 @@
     "webpack": "^5.68.0"
   }
 
- 
+  ,"proxy":"http://localhost:8080"
 
 
 }

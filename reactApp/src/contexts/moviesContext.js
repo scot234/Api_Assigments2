@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useReducer, useContext } from "react";
 import { getMovies } from "../api/tmdb-api";
-import { AuthContext } from '../contexts/authContext';
+import { AuthContext } from './authContext';
 
 export const MoviesContext = React.createContext(null);
 
@@ -59,12 +59,12 @@ const MoviesContextProvider = (props) => {
   return (
     <MoviesContext.Provider
       value={{
+        movies: state.movies,
         favorites,
         addToFavorites,
         addToPlaylist,
         removeFromFavorites,
         addReview,
-        movies: state.movies
       }}
     >
       {props.children}
