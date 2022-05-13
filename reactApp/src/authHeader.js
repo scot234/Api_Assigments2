@@ -12,7 +12,7 @@ const BaseAuthHeader = (props) => {
     </p>
   ) : (
     <p>
-      You are not logged in{" "}
+      Please log in client!{" "}
       <button onClick={() => navigate('/movies/login')}>Login</button>
     </p>
   );
