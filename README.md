@@ -18,9 +18,7 @@ In React apps, need too put npm install, When finished installing, put npm start
 
 ## API Configuration
 
-Describe any configuration that needs to take place before running the API. For example, creating an `.env` file and what variables to put in it. Give an example of how this might be done.
-
-REMEMBER: DON'T PUT YOUR OWN USERNAMES/PASSWORDS/AUTH KEYS IN THE README OR ON GITHUB, just placeholders as indicated below:
+ creating an `.env` file 
 
 ______________________
 NODEENV=development
@@ -43,7 +41,7 @@ If you have your API design on an online platform or graphic, please link to it 
 
 ## Security and Authentication
 
-Give details of authentication/security implemented on the API (e.g. passport/sessions). Indicate which routes are protected.
+procted routes are added in upcmoing to popular, this is when only can see them pages after logging in
 
 ## Integrating with React App
 
